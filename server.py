@@ -19,13 +19,13 @@ def home():
 def guess(number):
 
     if number < number_to_guess:
-        return '<h1>TOO LOW</h1>\
+        return '<h1 style="color: red">TOO LOW</h1>\
                 <img src="https://media.giphy.com/media/wdh1SvEn0E06I/giphy.gif">'
     elif number > number_to_guess:
-        return '<h1>TOO HIGH</h1>\
+        return '<h1 style="color: red">TOO HIGH</h1>\
                 <img src="https://media.giphy.com/media/2cei8MJiL2OWga5XoC/giphy.gif">'
     else:
-        return '<h1>YOU GUESSED IT</h1>\
+        return '<h1 style="color: green">YOU GUESSED IT</h1>\
                 <img src="https://media.giphy.com/media/3oGRFp0AqM0BY4axjO/giphy.gif">'
 
 
